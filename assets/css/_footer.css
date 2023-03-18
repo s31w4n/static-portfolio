@@ -1,0 +1,15 @@
+/* footer */
+footer {
+  height: 50px;
+  background-color: #17263c;
+}
+footer p {
+  color: #fff;
+  padding-top: 14px;
+}
+footer p i {
+  color: #f33b53;
+}
+footer p a {
+  color: #f33b53;
+}

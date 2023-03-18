@@ -1,0 +1,105 @@
+/* Section 3 */
+/* Service Styles */
+section .container .row .row-item .card .card-header {
+  position: relative;
+}
+section .container .row .row-item .card .card-header i {
+  background: #fff;
+  color: #f33b53;
+  position: absolute;
+  top: -45px;
+  border: 7px solid white;
+  overflow: hidden !important;
+  font-size: 35px;
+}
+section .container .row .row-item .card .card-header i.rotate {
+  transform: rotate(-45deg);
+}
+section .container .row .row-item .card .card-body h5 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+section .container .row .row-item .card .card-body p.sub {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+/* section 4 */
+section .container .row .row-item .card .card-header .price-card-title {
+  font-size: 32px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+section .container .row .row-item .card .card-header .price-card-cost {
+  margin-bottom: 20px;
+}
+section .container .row .row-item .card .card-header .price-card-cost sup {
+  font-size: 20px;
+  position: absolute;
+}
+section .container .row .row-item .card .card-header .price-card-cost .num {
+  font-size: 45px;
+  padding-left: 15px;
+}
+section .container .row .row-item .card .card-header .price-card-cost .date {
+  font-size: 12px;
+}
+section .container .row .row-item .card .card-header .list {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+section .container .row .row-item .card .card-header .list li {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+section .container .row .row-item .card .card-header .list li .text-muted {
+  font-weight: normal;
+}
+section .container .row .row-item .card .card-header .sc-4-btn {
+  width: 150px;
+  height: 40px;
+  font-size: 22px;
+  padding: 0px 14px;
+  border-radius: 5px;
+  background-color: #f33b53;
+  border: 1px solid #f33b53;
+  color: #fff;
+  transition: all 200ms ease-in-out;
+}
+section .container .row .row-item .card .card-header .sc-4-btn:hover {
+  color: #f33b53;
+  background-color: #fff;
+  cursor: pointer;
+}
+section .container .row .row-item.costumized {
+  width: 25%;
+}
+@media screen and (max-width: 1050px) {
+  section .container .row .row-item.costumized {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  section .container .row .row-item.costumized {
+    width: 100%;
+  }
+}
+/* Section 5 Packs Price*/
+section .container#sc-five {
+  padding: 80px 0;
+  color: #eee;
+}
+section .container .sc-5-btn {
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: #f85c70;
+  color: #fff;
+  border: 1px solid #f85c70;
+  transition: all 200ms ease-in-out;
+}
+section .container .sc-5-btn:hover {
+  background-color: #f33b53;
+  border: 1px solid #f33b53;
+  cursor: pointer;
+}

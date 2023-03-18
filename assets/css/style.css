@@ -1,0 +1,35 @@
+@import "_header.css";
+@import "_nav.css";
+@import "_about.css";
+@import "_resume.css";
+@import "_service.css";
+@import "_portfolio.css";
+@import "_blog.css";
+@import "_footer.css";
+
+*,
+body,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: "Jost", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.bg {
+  background-color: #f33b53;
+}
+.m-4 {
+  margin-bottom: 40px;
+}
+.text-center {
+  text-align: center;
+}
+.bg {
+  background-color: #343a40;
+}

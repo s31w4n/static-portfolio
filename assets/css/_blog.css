@@ -1,0 +1,207 @@
+/* Section 6 Blog*/
+
+section .container .blog-row .blog-card {
+  display: flex;
+  gap: 20px;
+  border: 1px solid #eee;
+  margin-bottom: 20px;
+}
+section .container .blog-row .blog-card .img-holder {
+  width: 30%;
+}
+section .container .blog-row .blog-card .content-holder {
+  width: 70%;
+  padding: 40px;
+}
+section .container .blog-row .blog-card .img-holder img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+section .container .blog-row .blog-card .content-holder h6 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+section .container .blog-row .blog-card .content-holder .post-details {
+  margin-bottom: 20px;
+}
+section .container .blog-row .blog-card .content-holder .post-details a {
+  color: #727171;
+  margin-right: 15px;
+}
+section .container .blog-row .blog-card .content-holder .read-more {
+  color: #f33b53;
+  font-size: 17px;
+}
+section .container .blog-row .blog-card .content-holder .read-more i {
+  font-size: 15px;
+}
+
+section .container .blog-row .blog-card .content-holder p {
+  color: #727171;
+  margin-bottom: 20px;
+}
+section .container .blog-row .blog-card .content-holder p strong {
+  color: #000;
+}
+@media screen and (max-width: 1500px) {
+  section .container .blog-row .blog-card .img-holder {
+    width: 35%;
+  }
+  section .container .blog-row .blog-card .content-holder {
+    width: 65%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  section .container .blog-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  section .container .blog-row .blog-card {
+    width: 49%;
+    flex-direction: column;
+  }
+  section .container .blog-row .blog-card .img-holder {
+    width: 100%;
+  }
+  section .container .blog-row .blog-card .content-holder {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 950px) {
+  section .container .blog-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  section .container .blog-row .blog-card {
+    width: 100%;
+    flex-direction: column;
+  }
+  section .container .blog-row .blog-card .img-holder {
+    width: 100%;
+  }
+  section .container .blog-row .blog-card .content-holder {
+    width: 100%;
+  }
+}
+/* Section 7 Send Message*/
+section .container .row .form-holder {
+  width: 50%;
+  display: flex;
+  margin-right: 20px;
+  padding: 0 1rem;
+}
+section .container .row .contact-items {
+  width: 30%;
+  padding: 0 1rem;
+}
+section .container .row h4 {
+  font-size: 28px;
+}
+section .container .row .form-holder .contact-form-card h4::after,
+section .container .row .contact-items .contact-info-card h4::after {
+  content: "";
+  width: 30px;
+  height: 2px;
+  margin-bottom: 40px;
+  background: #f33b53;
+  color: #f33b53;
+  display: block;
+}
+section .container .row .form-holder .contact-form-card {
+  width: 100%;
+  padding: 1rem;
+}
+section .container .row .form-holder .contact-form-card form input {
+  width: 90%;
+  margin-bottom: 20px;
+  height: 50px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  outline: none;
+  font-size: 17px;
+}
+::placeholder {
+  font-size: 17px;
+}
+section
+  .container
+  .row
+  .form-holder
+  .contact-form-card
+  form
+  input[type="textbox"] {
+  height: 150px;
+}
+section
+  .container
+  .row
+  .form-holder
+  .contact-form-card
+  form
+  input[type="submit"] {
+  font-size: 18px;
+  background-color: #fff;
+  color: #f33b53;
+  border-color: #f33b53;
+  transition: all 200ms ease-in-out;
+}
+section
+  .container
+  .row
+  .form-holder
+  .contact-form-card
+  form
+  input[type="submit"]:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #f33b53;
+}
+section .container .row .contact-items .contact-info-card {
+  padding: 1rem;
+}
+section .container .row .contact-items .contact-info-card .card-item {
+  display: flex;
+  font-size: 22px;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+section .container .row .contact-items .contact-info-card .card-item .icon {
+  margin-right: 20px;
+}
+section .container .row .contact-items .contact-info-card .card-item .desc h6 {
+  line-height: 28px;
+}
+section
+  .container
+  .row
+  .contact-items
+  .contact-info-card
+  .card-item
+  .desc
+  .text-muted {
+  color: #727171;
+}
+section .container .row .contact-items .contact-info-card ul {
+  display: flex;
+
+  margin-top: 50px;
+}
+section .container .row .contact-items .contact-info-card ul li {
+  margin-right: 30px;
+  font-size: 22px;
+}
+section .container .row .contact-items .contact-info-card ul li a {
+  color: #f33b53;
+}
+@media screen and (max-width: 900px) {
+  section .container .row .form-holder {
+    width: 100%;
+  }
+  section .container .row .contact-items {
+    width: 100%;
+  }
+}

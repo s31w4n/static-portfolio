@@ -1,0 +1,100 @@
+/* About Section Styles */
+.about-wrapper {
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.about-wrapper .about-items {
+  width: 30%;
+  padding: 60px;
+}
+.about-wrapper .about-items h2 {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.about-wrapper .about-items span.hd::before {
+  content: "";
+  width: 30px;
+  height: 2px;
+  margin-bottom: 40px;
+  background: #f33b53;
+  color: #f33b53;
+  display: block;
+}
+.about-wrapper .about-items h4 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.about-wrapper .about-items p {
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+.about-wrapper .about-items .about-btn {
+  padding: 0.375rem 0.75rem;
+  font-size: 18px;
+  text-align: center;
+  height: 40px;
+  width: 180px;
+  border: 1px solid #f33b53;
+  color: #f33b53;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  transition: all 250ms ease-in-out;
+}
+.about-wrapper .about-items .about-btn:hover {
+  color: #fff;
+  background-color: #f33b53;
+  cursor: pointer;
+}
+.about-wrapper .about-items .about-info li {
+  margin-bottom: 10px;
+}
+.about-wrapper .about-items span {
+  font-weight: bold;
+  font-size: 18px;
+}
+.about-wrapper .about-items .about-social {
+  display: flex;
+  margin-top: 30px;
+}
+.about-wrapper .about-items .about-social a {
+  color: #f33b53;
+  margin-right: 20px;
+  font-size: 20px;
+}
+.about-wrapper .about-items .row {
+  display: flex;
+}
+.about-wrapper .about-items .row .icon {
+  color: #f33b53;
+  font-size: 34px;
+  margin-right: 30px;
+}
+.about-wrapper .about-items .row .row-desc h6 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.about-wrapper .about-items .row .row-desc p {
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 1200px) {
+  .about-wrapper {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .about-wrapper .about-items {
+    width: 50%;
+  }
+  .about-wrapper .about-items:last-child {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 830px) {
+  .about-wrapper .about-items {
+    width: 100%;
+    padding-top: 0px;
+  }
+}

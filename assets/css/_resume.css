@@ -1,0 +1,161 @@
+/* Resume Section Styles */
+/* Section 1 */
+section {
+  width: 100%;
+  margin-bottom: 100px;
+}
+section .container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+section .container h2,
+span.hd {
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+section .container span.hd {
+  color: #f33b53;
+}
+section .container .row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* margin: 0 -15px; */
+  text-align: left;
+  margin: 0 -15px;
+}
+section .container .row .row-item {
+  width: 33.33%;
+  padding: 0 15px;
+}
+section .container .row .row-item h4 {
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+section .container .row .row-item .card .card-header span.hd::before {
+  content: "";
+  width: 30px;
+  height: 2px;
+  margin-bottom: 40px;
+  background: #f33b53;
+  color: #f33b53;
+  display: block;
+}
+section .container .row .row-item .card {
+  border: 1px solid #eee;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+section .container .row .row-item .card .card-body-title {
+  font-size: 20px !important;
+  color: #f33b53;
+  margin-bottom: 20px;
+}
+section .container .row .row-item .card .card-body p {
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+section .container .row .row-item .card .card-body p:last-child {
+  margin-bottom: 50px;
+}
+section .container .row .row-item .card hr {
+  border: none;
+  height: 1px;
+  background-color: #eee;
+  margin-bottom: 20px;
+}
+section .container .row .row-item .card .card-body h6 {
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+}
+section .container .row .row-item .card .card-body .progress {
+  width: 90%;
+  height: 0.3rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #eaf0fc;
+  margin-bottom: 1rem;
+}
+section .container .row .row-item .card .card-body .progress .progress-bar {
+  background-color: #f33b53;
+  height: 0.3rem;
+  border-radius: 5px;
+}
+@media screen and (max-width: 1200px) {
+  section .container .row .row-item {
+    width: 50%;
+  }
+  section .container .row .row-item.last-child {
+    width: 100%;
+  }
+  section .container .row .row-item .card .card-body p:last-child {
+    margin-bottom: 0px;
+  }
+}
+@media screen and (max-width: 830px) {
+  section .container .row .row-item {
+    width: 100%;
+  }
+}
+/* Section 2 */
+section#second {
+  width: 100%;
+  background-color: #343a40;
+  margin-bottom: 100px;
+  padding: 80px 0;
+}
+section#second .second-container {
+  width: 90%;
+  margin: 0px auto;
+}
+section#second .second-container .row {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+section#second .second-container .row .row-items {
+  width: 25%;
+  padding: 0 1rem;
+}
+section#second .second-container .row .row-items .row-item-sub {
+  display: flex;
+  width: 100%;
+}
+section#second .second-container .row .row-items .item-bd {
+  border-right: 1px solid #fff;
+  padding: 1rem;
+  width: 40%;
+}
+section#second .second-container .row .row-items .row-items-icons {
+  display: flex;
+  justify-content: flex-end;
+}
+section#second .second-container .row .row-items .row-items-icons img {
+  width: 80px;
+  height: 80px;
+}
+section#second .second-container .row .row-items .row-items-desc {
+  color: #fff;
+  padding: 1rem;
+  width: 60%;
+}
+section#second .second-container .row .row-items .row-items-desc h1 {
+  font-size: 2.4rem;
+  color: #f33b53;
+}
+@media screen and (max-width: 1200px) {
+  section#second .second-container .row .row-items .row-items-desc p {
+    font-size: 15px;
+  }
+  section#second .second-container .row .row-items {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 780px) {
+  section#second .second-container .row .row-items {
+    width: 100%;
+  }
+}
